@@ -5,20 +5,43 @@ h1 {
 }
 
 .container {
-	width: 100%;
+	width: 960px;
 	height: 960px;
 	background-color: lightgrey;
 }
 
 
 #robot {
-	background-color: white;
+	background-color: lightgrey;
 	position: absolute;
 	top: 300px;
 	left: 1100px;
 	width: 400px;
 	height: 400px;
 	border: 3px;
+}
+
+.Q, .W, .E, .A, .S, .D {
+	width: 300px;
+	height: 300px;
+	border: 2px;
+	float: left;
+	background-color: lightblue;
+} 
+/*.Q {
+	width: 300px;
+	height: 300px;
+	border: 2px;
+	float: left;
+	background-color: orange;
+} */
+
+.active {
+	width: 300px;
+	height: 300px;
+	border: 2px;
+	float: left;
+	background-color: red;
 }
 
 .move {
